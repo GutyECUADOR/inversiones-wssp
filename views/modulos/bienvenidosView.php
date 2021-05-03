@@ -15,13 +15,13 @@
               <div class="collapse navbar-collapse navbar-toggle">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a href="index.html" class="nav-link">Quiénes somos?</a>
+                    <a href="#" class="nav-link">Quiénes somos?</a>
                   </li>
                   <li class="nav-item">
-                    <a href="index.html" class="nav-link">Qué hacemos?</a>
+                    <a href="#" class="nav-link">Qué hacemos?</a>
                   </li>
                   <li class="nav-item">
-                    <a href="index.html" class="nav-link">Gana dinero con nosotros</a>
+                    <a href="#" class="nav-link">Gana dinero con nosotros</a>
                   </li>
                 </ul>
               </div>
@@ -32,8 +32,8 @@
 
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a href="#">Registrarte</a>
-                    <span>&nbsp;o&nbsp;</span><a href="#">Ingresar</a>
+                    <a href="?action=register">Registrarte</a>
+                    <span>&nbsp;o&nbsp;</span><a href="?action=login">Ingresar</a>
                   </li>
                 </ul>
 
@@ -55,7 +55,7 @@
               <div class="video-play-icon" data-toggle="modal" data-target="#video-modal">
                 <i class="icon-controller-play"></i>
               </div>
-              <h1 class="display-3">Ready, Set, Grow.</h1>
+              <h1 class="display-3">Invierte, & Crece.</h1>
               <span class="lead">
                 A robust suite of styled components, powered by Bootstrap 4.  Take the design of your website or webapp up a notch.
               </span>

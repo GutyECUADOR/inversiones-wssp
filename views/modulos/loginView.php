@@ -10,70 +10,58 @@ use App\Controllers\loginController;
     $cedula = isset($_POST["cedula"]) ? $_POST["cedula"] : '';
     $telefono = isset($_POST["telefono"]) ? $_POST["telefono"] : '';
 
-    require_once './views/modulos/sis_modules/promo_banner.php';
 ?>
 
-    <div class="main-container background-confedi-gradient">
+    <div class="main-container">
       <section class="space-sm">
         <div class="container align-self-start">
+          <div class="row mb-5">
+            <div class="col text-center">
+              <a href="#">
+                <img alt="Image" src="assets/img/logo-gray.svg" />
+              </a>
+            </div>
+            <!--end of col-->
+          </div>
+          <!--end of row-->
           <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-7">
-              <div class="card card-lg text-center border-0">
-                <div style="background: #266fbf;">
-                  <div class="pr-2">
-                    <a href="?action=bienvenidos" class="float-right text-white" aria-hidden="true" style="font-size:2rem">&times;</a>
-                  </div>
-               
-                <img alt="Image" src="assets/img/logoconrayas.png" style="width: 40%;"/>
-                </div>
-
+              <div class="card card-lg text-center">
                 <div class="card-body">
-                  <div class="mb-2">
-                    
-                    <h1 class="h2 mb-2 mt-2" style="font-weight: bold !important; color: #fe7011">¡HOLA!</h1>
-                    <span class="text-uppercase" style="font-weight: bold !important; color: #fe7011">Ingresa a tu cuenta y revisa tus puntos</span>
-                   
+                  <div class="mb-5">
+                    <h1 class="h2 mb-2">Hello again</h1>
+                    <span>Sign in to your account to continue</span>
                   </div>
                   <div class="row no-gutters justify-content-center">
-                    <div class="text-left col-lg-8">
-                      <form method="POST" autocomplete="off">
-                        <?php 
-                          $login->checkLogin($cedula, $telefono); 
-                        
-                        ?>
-                        <div class="form-group">
-                          <label for="cedula" style="color: #266fbf !important;">Documento de Identidad</label>
-                          <input class="form-control form-control-lg" type="text" name="cedula" id="cedula" placeholder="Documento de Identidad" required />
+                    <form class="text-left col-lg-8">
+                      <div class="form-group">
+                        <label for="login-email">Email Address</label>
+                        <input class="form-control form-control-lg" type="email" name="email" id="login-email" placeholder="Email Address" />
+                      </div>
+                      <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input class="form-control form-control-lg" type="password" name="password" id="login-password" placeholder="Enter a password" />
+                        <small>Forgot password? <a href="#">Reset here</a>
+                        </small>
+                      </div>
+                      <div>
+                        <div class="custom-control custom-checkbox align-items-center">
+                          <input type="checkbox" class="custom-control-input" value="box-1" name="box-1" checked id="check-remember">
+                          <label class="custom-control-label text-small" for="check-remember">Remember me next time</label>
                         </div>
-                        <div class="form-group">
-                          <label for="telefono" style="color: #266fbf !important;">Teléfono Celular</label>
-                          <input class="form-control form-control-lg" type="telefono" name="telefono" id="telefono" placeholder="Teléfono" required/>
-                         
-                          </small>
-                        </div>
-                        <div class="text-center mt-3">
-                          <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
-                        </div>
-                        <div class="text-center mt-3">
-                          <a href="?action=loginfacebook" class="btn btn-block btn-social btn-facebook text-center text-light">
-                            <span class="fa fa-facebook"></span> Ingresa con Facebook
-                          </a>
-                          <a href="?action=logingoogle" class="btn btn-block btn-social btn-google text-center text-light">
-                            <span class="fa fa-google"></span> Ingresa con Google
-                          </a>
-                        </div>
-                        <div class="text-center mt-3 mb-3">
-                            <span>¿No tienes una cuenta? <a href="?action=register">Crea una aqui</a>
-                            </span>
-                        </div>
-                      </form>
-                    </div>
-                    
+                      </div>
+                      <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-lg btn-primary">Log in</button>
+                      </div>
+                    </form>
                   </div>
                   <!--end of row-->
                 </div>
               </div>
-              
+              <div class="text-center">
+                <span class="text-small">Don't have an account yet? <a href="#">Create one</a>
+                </span>
+              </div>
             </div>
             <!--end of col-->
           </div>
@@ -82,10 +70,6 @@ use App\Controllers\loginController;
         <!--end of container-->
       </section>
       <!--end of section-->
-      
-      <!-- Whatsapp button  -->
-      <?php require_once 'modals/whatsapp.php'?>
-
     </div>
 
     <!-- Required vendor scripts (Do not remove) -->
@@ -93,14 +77,7 @@ use App\Controllers\loginController;
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 
-    <script>
-        $(function () {
-          $('[data-toggle="popover"]').popover()
-          $("#whatspopover").popover("show");
-          $("#tiendaramopopover").popover("show");
-        })
-     
-    </script>
+   
 
     <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
 
