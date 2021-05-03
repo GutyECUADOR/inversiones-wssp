@@ -1,0 +1,22 @@
+{
+    "name": "vidiasoft/inversiones",
+    "description": "Proyecto de inverisones",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Gutiérrez",
+            "email": "gutiecuador@gmail.com"
+        }
+    ],
+    "require": {
+        "hybridauth/hybridauth": "^3.6",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": ["config/global.php"]
+    }
+}
