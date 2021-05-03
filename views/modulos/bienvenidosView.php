@@ -18,7 +18,7 @@
                     <a href="index.html" class="nav-link">Quiénes somos?</a>
                   </li>
                   <li class="nav-item">
-                    <a href="index.html" class="nav-link">Qué acemos?</a>
+                    <a href="index.html" class="nav-link">Qué hacemos?</a>
                   </li>
                   <li class="nav-item">
                     <a href="index.html" class="nav-link">Gana dinero con nosotros</a>
@@ -68,57 +68,47 @@
         <!--end of container-->
       </section>
       <!--end of section-->
-      <section class="space-lg">
+      <section class="bg-white flush-with-above" style="padding-top:40px">
         <div class="container">
-          <ul class="feature-list feature-list-xlg">
-            <li class="row align-items-center justify-content-around">
-              <div class="col-12 col-md-6 order-md-2">
-                <img alt="Image" class="img-fluid rounded" src="assets/img/photo-woman-laptop.jpg" />
+          <div class="row justify-content-center text-center section-intro">
+            <div class="col-12 col-md-9 col-lg-8">
+              <span class="title-decorative" data-aos="fade-up" data-aos-delay="10">Simple Pricing</span>
+              <h2 class="display-4" data-aos="fade-up" data-aos-delay="100">Conozca nuestro proceso de inversión</h2>
+              <span class="lead" data-aos="fade-up" data-aos-delay="200">An opportunity to introduce the major benefits of your product and set the scene for what's to come</span>
+
+            </div>
+            <!--end of col-->
+          </div>
+          <!--end of row-->
+          <ul class="feature-list feature-list-lg">
+            <li class="row justify-content-around align-items-center">
+              <div class="col-9 col-md-6 col-lg-5">
+                <img alt="Image" src="assets/img/graphic-woman-writing.svg" class="img-fluid rounded" />
               </div>
               <!--end of col-->
-              <div class="col-12 col-md-6 col-lg-5 text-lg-center order-md-1">
-                <i class="icon-folder-music text-teal display-3"></i>
-                <h3 class="h1">It's everything in one place</h3>
-                <p class="lead">
-                  A robust suite of styled components, powered by Bootstrap 4.  Take the design of your website or webapp up a notch.
+              <div class="col-12 col-md-6 col-lg-5">
+                <h5>Set your phasers to stun</h5>
+                <p>
+                  A paragraph, from the Greek paragraphos, "to write beside" or "written beside", is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.
                 </p>
-                <a href="#">Compare plans and features &rsaquo;</a>
+                <a href="#">More about Phasers &rsaquo;</a>
               </div>
               <!--end of col-->
             </li>
-            <!--end of row-->
-            <li class="row align-items-center justify-content-around">
-              <div class="col-12 col-md-6 order-1">
-                <img alt="Image" class="img-fluid rounded" src="assets/img/photo-man-book.jpg" />
+            <li class="row justify-content-around align-items-center">
+              <div class="col-9 col-md-6 col-lg-5 order-lg-2">
+                <img alt="Image" src="assets/img/graphic-woman-writing-2.svg" class="img-fluid rounded" />
               </div>
               <!--end of col-->
-              <div class="col-12 col-md-6 col-lg-5 text-lg-center order-2">
-                <i class="icon-images text-red display-3"></i>
-                <h3 class="h1">Synced for your convenience</h3>
-                <p class="lead">
-                  A robust suite of styled components, powered by Bootstrap 4.  Take the design of your website or webapp up a notch.
+              <div class="col-12 col-md-6 col-lg-5 order-lg-1">
+                <h5>Let the world know</h5>
+                <p>
+                  A paragraph, from the Greek paragraphos, "to write beside" or "written beside", is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.
                 </p>
-                <a href="#">View the detailed overview &rsaquo;</a>
+                <a href="#">More about Team Collaboration &rsaquo;</a>
               </div>
               <!--end of col-->
             </li>
-            <!--end of row-->
-            <li class="row align-items-center justify-content-around">
-              <div class="col-12 col-md-6 order-md-2">
-                <img alt="Image" class="img-fluid rounded" src="assets/img/photo-woman-sand.jpg" />
-              </div>
-              <!--end of col-->
-              <div class="col-12 col-md-6 col-lg-5 text-lg-center order-md-1">
-                <i class="icon-drop text-purple display-3"></i>
-                <h3 class="h1">Armed for performance</h3>
-                <p class="lead">
-                  A robust suite of styled components, powered by Bootstrap 4.  Take the design of your website or webapp up a notch.
-                </p>
-                <a href="#">Tell me more &rsaquo;</a>
-              </div>
-              <!--end of col-->
-            </li>
-            <!--end of row-->
           </ul>
         </div>
         <!--end of container-->
@@ -146,97 +136,13 @@
         <!--end of container-->
       </section>
       <!--end of section-->
-      <section>
-        <div class="container">
-          <div class="row justify-content-center text-center section-intro">
-            <div class="col-12 col-md-9 col-lg-8">
-              <span class="title-decorative" data-aos="fade-up" data-aos-delay="10">Built for Performance</span>
-              <h2 class="display-4" data-aos="fade-up" data-aos-delay="100">Heavy on swish looks</h2>
-              <span class="lead" data-aos="fade-up" data-aos-delay="200">An opportunity to introduce the major benefits of your product and set the scene for what's to come</span>
-
-            </div>
-            <!--end of col-->
-          </div>
-          <!--end of row-->
-
-          <ul class="row feature-list feature-list-lg">
-            <li class="col-12 col-md-6">
-              <div class="media align-items-center">
-                <a href="#">
-                  <img alt="Image" class="avatar avatar-lg mr-4" src="assets/img/graphic-developer-bootstrap.png" />
-                </a>
-                <div class="media-body">
-                  <a href="#">Based on Bootstrap 4</a>
-                  <p class="mt-3">
-                    A short description of the aforementioned facet to easily digest, no need for too much detail.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <!--end of col-->
-            <li class="col-12 col-md-6">
-              <div class="media align-items-center">
-                <a href="#">
-                  <img alt="Image" class="avatar avatar-lg mr-4" src="assets/img/graphic-developer-gulp.png" />
-                </a>
-                <div class="media-body">
-                  <a href="#">Gulp Workflow</a>
-                  <p class="mt-3">
-                    A short description of the aforementioned facet to easily digest, no need for too much detail.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <!--end of col-->
-            <li class="col-12 col-md-6">
-              <div class="media align-items-center">
-                <a href="#">
-                  <img alt="Image" class="avatar avatar-lg mr-4" src="assets/img/graphic-developer-sass.png" />
-                </a>
-                <div class="media-body">
-                  <a href="#">Styled with Sass</a>
-                  <p class="mt-3">
-                    A short description of the aforementioned facet to easily digest, no need for too much detail.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <!--end of col-->
-            <li class="col-12 col-md-6">
-              <div class="media align-items-center">
-                <a href="#">
-                  <img alt="Image" class="avatar avatar-lg mr-4" src="assets/img/graphic-developer-html5.png" />
-                </a>
-                <div class="media-body">
-                  <a href="#">Built with HTML5</a>
-                  <p class="mt-3">
-                    A short description of the aforementioned facet to easily digest, no need for too much detail.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <!--end of col-->
-          </ul>
-          <!--end of row-->
-          <div class="row justify-content-center text-center section-outro">
-            <div class="col-lg-4 col-md-5">
-              <h6>Introducing a new way</h6>
-              <p>An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
-              <a href="#">View more features &rsaquo;</a>
-            </div>
-            <!--end of col-->
-          </div>
-          <!--end of row-->
-        </div>
-        <!--end of container-->
-      </section>
-      <!--end of section-->
+     
       <section>
         <div class="container">
           <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
               <span class="title-decorative" data-aos="fade-up" data-aos-delay="10">Simple Pricing</span>
-              <h2 class="display-4" data-aos="fade-up" data-aos-delay="100">Let's not break the bank</h2>
+              <h2 class="display-4" data-aos="fade-up" data-aos-delay="100">Nuestros planes</h2>
               <span class="lead" data-aos="fade-up" data-aos-delay="200">An opportunity to introduce the major benefits of your product and set the scene for what's to come</span>
 
             </div>
@@ -244,15 +150,6 @@
           </div>
           <!--end of row-->
 
-          <div class="row justify-content-center mb-5">
-            <div class="col-auto">
-              <nav class="nav btn-group">
-                <a href="#pricing-monthly" class="btn btn-lg btn-outline-primary active" id="pricing-monthly-tab" data-toggle="tab" aria-controls="pricing-monthly">Monthly Pricing</a>
-                <a href="#pricing-yearly" class="btn btn-lg btn-outline-primary" id="pricing-yearly-tab" data-toggle="tab" aria-controls="pricing-yearly">Yearly Pricing</a>
-              </nav>
-            </div>
-            <!--end of col-->
-          </div>
           <!--end of row-->
           <div class="tab-content">
             <div class="tab-pane fade show active" id="pricing-monthly">
@@ -275,7 +172,7 @@
                           2 Collaborators
                         </li>
                       </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Download now</a>
+                      <a href="https://commerce.coinbase.com/checkout/e535f62f-6121-4842-b105-05800fc14455" target="_blank" class="btn btn-lg btn-outline-primary">Pagar ahora</a>
                     </div>
                   </div>
                   <!--end card-->
@@ -299,7 +196,7 @@
                           2 Collaborators
                         </li>
                       </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
+                      <a href="https://commerce.coinbase.com/checkout/074fecb7-782d-4ae1-95bc-2e10d2738573" target="_blank" class="btn btn-lg btn-outline-primary">Pagar ahora</a>
                     </div>
                   </div>
                   <!--end card-->
@@ -323,7 +220,7 @@
                           Unlimited collaborators
                         </li>
                       </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
+                      <a href="https://commerce.coinbase.com/checkout/56855697-0595-4aeb-b81d-6318ee0e20a0" target="_blank" class="btn btn-lg btn-outline-primary">Pagar ahora</a>
                     </div>
                   </div>
                   <!--end card-->
@@ -347,7 +244,7 @@
                           Unlimited collaborators
                         </li>
                       </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
+                      <a href="https://commerce.coinbase.com/checkout/3ed4ad1f-1d8a-4cbe-8705-a0c494490a10" target="_blank" class="btn btn-lg btn-outline-primary">Pagar ahora</a>
                     </div>
                   </div>
                   <!--end card-->
@@ -371,7 +268,7 @@
                           Unlimited collaborators
                         </li>
                       </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
+                      <a href="https://commerce.coinbase.com/checkout/aa29e6f7-603e-4590-a0c6-6274a3aac3dd" target="_blank" class="btn btn-lg btn-outline-primary">Pagar ahora</a>
                     </div>
                   </div>
                   <!--end card-->
@@ -395,84 +292,7 @@
                           Unlimited collaborators
                         </li>
                       </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
-                    </div>
-                  </div>
-                  <!--end card-->
-                </div>
-                <!--end of col-->
-              </div>
-              <!--end of row-->
-            </div>
-            <div class="tab-pane fade" id="pricing-yearly">
-              <div class="row">
-                <div class="col-md-6 col-lg-4">
-                  <div class="card pricing card-lg">
-                    <div class="card-body">
-                      <h5>Free</h5>
-                      <span class="display-3 price-collapse collapse show">$0</span>
-                      <span class="text-small">per user / month</span>
-                      <span class="h6">Includes:</span>
-                      <ul class="list-unstyled">
-                        <li>
-                          1 Active project
-                        </li>
-                        <li>
-                          2 Repositories
-                        </li>
-                        <li>
-                          2 Collaborators
-                        </li>
-                      </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
-                    </div>
-                  </div>
-                  <!--end card-->
-                </div>
-                <!--end of col-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="card pricing card-lg">
-                    <div class="card-body">
-                      <h5>Pro</h5>
-                      <span class="display-3">$19</span>
-                      <span class="text-small">per user / month</span>
-                      <span class="h6">Includes:</span>
-                      <ul class="list-unstyled">
-                        <li>
-                          1 Active project
-                        </li>
-                        <li>
-                          2 Repositories
-                        </li>
-                        <li>
-                          2 Collaborators
-                        </li>
-                      </ul>
-                      <a href="#" class="btn btn-lg btn-success">Sign up now</a>
-                    </div>
-                  </div>
-                  <!--end card-->
-                </div>
-                <!--end of col-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="card pricing card-lg">
-                    <div class="card-body">
-                      <h5>Corporate</h5>
-                      <span class="display-3">$39</span>
-                      <span class="text-small">per user / month</span>
-                      <span class="h6">Includes:</span>
-                      <ul class="list-unstyled">
-                        <li>
-                          Unlimited active projects
-                        </li>
-                        <li>
-                          Unlimited repositories
-                        </li>
-                        <li>
-                          Unlimited collaborators
-                        </li>
-                      </ul>
-                      <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
+                      <a href="https://commerce.coinbase.com/checkout/75b8de5b-7a9a-4fdd-b387-e0f7cac015e0" target="_blank" class="btn btn-lg btn-outline-primary">Pagar ahora</a>
                     </div>
                   </div>
                   <!--end card-->
